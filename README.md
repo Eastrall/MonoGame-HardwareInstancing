@@ -1,13 +1,13 @@
 # MonoGame-HardwareInstancing
 
 
-This is a sample to explain how works Hardware Instancing in XNA 4.0 and MonoGame 3.5.
+This is a sample to explain how Hardware Instancing works in XNA 4.0 and MonoGame 3.5.
 
-First of all let's see together what is the Hardware Instancing:
+First of all, let's see together what is Hardware Instancing:
 
 The `Hardware Instancing` allows you to draw the same model several times using GPU instancing techniques to reduce the cost of repeated draw calls.
 
-For example if you have very large cube terrain, let's say `4098 * 4098` for peformances reasons you don't realy want to draw the cubes one by one. It will be very costly to you computer.
+For example if you have a very large cube terrain, let's say `4098 * 4098` for peformances reasons, you don't really want to draw the cubes one by one. It will be very costly to your computer.
 
 How to use it and how it works
 ------------------------------
@@ -35,6 +35,6 @@ In the sample the binding is definied like that:
 By doing that you will have your `VertexBufferBinding` object that contains your geometry and all your instances. You can draw the content like any other `VertexBuffer`, and it will draw all your instances in just one call.
 
 
-Hope it will help a lot people. If you have any question, or think that this tutorial/sample can be improved, don't hesitate to send me a message, or open an issue! 
+Hope it will help a lot people. If you have any question, or think that this tutorial/sample can be improved, don't hesitate to send me a message, or open an issue!
 
 Based on: http://stackoverflow.com/questions/9929103/need-help-using-instancing-in-xna-4-0
